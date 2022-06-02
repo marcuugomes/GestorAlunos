@@ -1,4 +1,4 @@
-package escola;
+package cvs;
 
 public class Aluno {
     private int nMec;
