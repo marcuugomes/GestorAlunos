@@ -20,4 +20,13 @@ public class Curso {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public void adicionarDisciplina ( Disciplina dis){
+        this.disciplinas.add(dis);
+    }
+
+    public ArrayList<Disciplina> getDisciplinas(){
+        return disciplinas;
+    }
+
 }

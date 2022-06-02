@@ -6,11 +6,11 @@ public class Disciplina {
 
     private String nome;
 
-    private ArrayList<Turma> turmas;
+    private ArrayList<Turma> turma;
 
     public Disciplina(String nome) {
         this.nome = nome;
-        this.turmas=new ArrayList<>();
+        this.turma=new ArrayList<>();
     }
 
     public String getNome() {
@@ -20,4 +20,10 @@ public class Disciplina {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public void adicionarTurma ( Turma turma){
+        this.turma.add(turma);
+
+    }
+
 }
